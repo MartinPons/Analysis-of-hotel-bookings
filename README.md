@@ -14,8 +14,6 @@ The two first questions are commom ones for everyone that wants to enter the mar
 
 As expected, there is a strong seasonality for the resort and city hotel, both in adr and roomnights. Groups have shorter stays in the resort hotel, book with significant less antelation, with lower ADRs. A random forest was the model selected to predict cancellations, obtaining an 85 % accuracy and a 79 % f1-score.
 
-The data is published under a Creative Commons license.
-
 ### File description
 
 - **requirements.txt**: requeriments file with the modules used in the analysis.
@@ -43,5 +41,7 @@ Below is a list of the modules used in the analysis is shown
 The original source of the data is  [Hotel Booking Demand Datasets](https://www.sciencedirect.com/science/article/pii/S2352340918315191),  by Nuno Antonio, Ana Almeida, and Luis Nunes for Data in Brief, Volume 22, February 2019.
 
 The data was downloaded and cleaned by Thomas Mock and Antoine Bichat for [#TidyTuesday during the week of February 11th, 2020](https://github.com/rfordatascience/tidytuesday/blob/master/data/2020/2020-02-11/readme.md), and published in kaggle by [Jesse Mostipak](https://www.jessemaegan.com/).
+
+The data is published under a Creative Commons license.
 
 

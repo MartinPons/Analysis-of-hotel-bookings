@@ -12,17 +12,17 @@ The analysis addresses three questions.
 
 The two first questions are commom ones for everyone that wants to enter the market. The second one is specially relevant from a business stand point. Transiend demand displaced by Groups require an specific analysis because it can affect main kpis not only for the day groups stay in, but for the surrinding days: a booking by a group it can make more difficult to sell rooms for the week the groups stays in. Finally being able to predict wether a booking will be canceled puts the marketing and sales team in an advanced position regarding selling, pricing and segmentation actions.
 
-The data is published under a Creative Commons license
+The data is published under a Creative Commons license.
 
 ### File description
 
-- requirements.txt: requeriments file with the modules used in the analysis
-- Analysis of hotel bookings.ipynb: jupyter notebook with the analysis
+- **requirements.txt**: requeriments file with the modules used in the analysis.
+- **Analysis of hotel bookings.ipynb**: jupyter notebook with the analysis.
 
 ### Aknowledgments
 
 The original source of the data is  [Hotel Booking Demand Datasets](https://www.sciencedirect.com/science/article/pii/S2352340918315191),  by Nuno Antonio, Ana Almeida, and Luis Nunes for Data in Brief, Volume 22, February 2019.
 
-The data was downloaded and cleaned by Thomas Mock and Antoine Bichat for [#TidyTuesday during the week of February 11th, 2020](https://github.com/rfordatascience/tidytuesday/blob/master/data/2020/2020-02-11/readme.md), and published in kaggle by [Jesse Mostipak](https://www.jessemaegan.com/)
+The data was downloaded and cleaned by Thomas Mock and Antoine Bichat for [#TidyTuesday during the week of February 11th, 2020](https://github.com/rfordatascience/tidytuesday/blob/master/data/2020/2020-02-11/readme.md), and published in kaggle by [Jesse Mostipak](https://www.jessemaegan.com/).
 
 

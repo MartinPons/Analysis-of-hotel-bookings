@@ -12,12 +12,15 @@ The analysis addresses three questions.
 
 The two first questions are commom ones for everyone that wants to enter the market. The second one is specially relevant from a business stand point. Transiend demand displaced by Groups require an specific analysis because it can affect main kpis not only for the day groups stay in, but for the surrinding days: a booking by a group it can make more difficult to sell rooms for the week the groups stays in. Finally being able to predict wether a booking will be canceled puts the marketing and sales team in an advanced position regarding selling, pricing and segmentation actions.
 
+As expected, there is a strong seasonality for the resort and city hotel, both in adr and roomnights. Groups have shorter stays in the resort hotel, book with significant less antelation, with lower ADRs. A random forest was the model selected to predict cancellations, obtaining an 85 % accuracy and a 79 % f1-score.
+
 The data is published under a Creative Commons license.
 
 ### File description
 
 - **requirements.txt**: requeriments file with the modules used in the analysis.
 - **Analysis of hotel bookings.ipynb**: jupyter notebook with the analysis.
+- **hotel_ bookings.csv**: csv files with the data
 
 The output of the analysis can be obtained directly by running all the cells in the Jupyter Notebook file. There are texts and visualizations explaining the output.
 

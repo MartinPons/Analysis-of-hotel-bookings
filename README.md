@@ -4,7 +4,7 @@ Author: Martín Pons
 
 This project contains an analysis of hotel booking data of twho hotels in Portugal: one resort hotel and one city hotel. Data for this analysis coms from [Kaggle](https://www.kaggle.com/jessemostipak/hotel-booking-demand), click [here](https://www.sciencedirect.com/science/article/pii/S2352340918315191) to access the original source.
 
-The analysis addresses tries to answer three questions.
+The analysis addresses tries to answer three questions
 
 1. How strong is the seasonality in these hotels?
 2. Up to what point adr, length of stay and lead time for groups reservation difers from individual / transient ones?

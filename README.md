@@ -19,6 +19,22 @@ The data is published under a Creative Commons license.
 - **requirements.txt**: requeriments file with the modules used in the analysis.
 - **Analysis of hotel bookings.ipynb**: jupyter notebook with the analysis.
 
+The output of the analysis can be obtained directly by running all the cells in the Jupyter Notebook file. There are texts and visualizations explaining the output.
+
+### Installations
+
+Below is a list of the modules used in the analysis is shown
+
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- datetime
+- statsmodels
+- calendar
+- scipy
+- sklearn
+
 ### Aknowledgments
 
 The original source of the data is  [Hotel Booking Demand Datasets](https://www.sciencedirect.com/science/article/pii/S2352340918315191),  by Nuno Antonio, Ana Almeida, and Luis Nunes for Data in Brief, Volume 22, February 2019.

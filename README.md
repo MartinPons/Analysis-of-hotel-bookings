@@ -7,18 +7,19 @@ This project contains an analysis of hotel booking data of twho hotels in Portug
 The analysis addresses tries to answer three questions
 
 1. How strong is the seasonality in these hotels?
-2. Up to what point adr, length of stay and lead time for groups reservation difers from individual / transient ones?
+2. Up to what point adr, length of stay and lead time for groups reservation difers from individual / transient ones? are rooms harder to sell in a nearby dates of a groups stay?
 3. Can we predict a cancellation, just with the information available at the moment this reservation has been made?
 
 The two first questions are commom ones for everyone that wants to enter the market. The second one is specially relevant from a business stand point. Transiend demand displaced by Groups require an specific analysis because it can affect main kpis not only for the day groups stay in, but for the surrinding days: a booking by a group it can make more difficult to sell rooms for the week the groups stays in. Finally being able to predict wether a booking will be canceled puts the marketing and sales team in an advanced position regarding selling, pricing and segmentation actions.
 
-As expected, there is a strong seasonality for the resort and city hotel, both in adr and roomnights. Groups have shorter stays in the resort hotel, book with significant less antelation, with lower ADRs. A random forest was the model selected to predict cancellations, obtaining an 85 % accuracy and a 79 % f1-score.
+As expected, there is a strong seasonality for the resort and city hotel, both in adr and roomnights. Groups have shorter stays in the resort hotel, book with significant less antelation, with lower ADRs. In the city hotel, it was found that rooms in dates nearby group stays are sold at an average lower ADR. A random forest was the model selected to predict cancellations, obtaining an 85 % accuracy and a 79 % f1-score.
 
 ### File description
 
 - **requirements.txt**: requeriments file with the modules used in the analysis.
 - **Analysis of hotel bookings.ipynb**: jupyter notebook with the analysis.
-- **hotel_ bookings.csv**: csv files with the data
+- **hotel_ bookings.csv**: csv files with the data.
+- **figures**: a folder containing some of the figures produced in the notebook.
 
 The output of the analysis can be obtained directly by running all the cells in the Jupyter Notebook file. There are texts and visualizations explaining the output.
 
@@ -31,10 +32,12 @@ Below is a list of the modules used in the analysis is shown
 - matplotlib
 - seaborn
 - datetime
+- dateutil
 - statsmodels
 - calendar
 - scipy
 - sklearn
+- math
 
 ### Aknowledgments
 

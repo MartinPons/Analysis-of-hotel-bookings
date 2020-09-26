@@ -14,6 +14,8 @@ The two first questions are commom ones for everyone that wants to enter the mar
 
 As expected, there is a strong seasonality for the resort and city hotel, both in adr and roomnights. Groups have shorter stays in the resort hotel, book with significant less antelation, with lower ADRs. In the city hotel, it was found that rooms in dates nearby group stays are sold at an average lower ADR. A random forest was the model selected to predict cancellations, obtaining an 85 % accuracy and a 79 % f1-score.
 
+A blog post with a record of this analisis was published from this análisis and can be accessed [here](https://medium.com/@martin.pons.martinez/can-we-predict-a-booking-cancellation-at-the-moment-of-the-reservation-c29378d56885)
+
 ### File description
 
 - **requirements.txt**: requeriments file with the modules used in the analysis.

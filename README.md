@@ -21,7 +21,7 @@ The first question relates to detecting seasonality patterns. A basic principle 
 The original data has been extracted from the booking changelog, one day prior to arrival date, to avoid leakages. There are some variables that had to be extracted fro, other DB systems.
 The data presented consists of booking records from two hotels in Portugal: one resort hotel and one city hotel.
 
-The direct source for this analysis is [Kaggle] and the original source (https://www.kaggle.com/jessemostipak/hotel-booking-demand), click [ScueceDirect](https://www.sciencedirect.com/science/article/pii/S2352340918315191).
+The direct source for this analysis is [Kaggle](https://www.kaggle.com/jessemostipak/hotel-booking-demand) and the original source is [ScueceDirect](https://www.sciencedirect.com/science/article/pii/S2352340918315191).
 
 In total there are 119,390 records and 32 features, with all of these features presenting almost (or none) null values, except for the variable "company" (94 % of records are missing).
 

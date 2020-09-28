@@ -37,7 +37,7 @@ For prediction of canceled bookings, the analysis is performed at the booking le
 
 ## Modeling
 
-For seasonality patterns detection, visual descriptive analysis has been carried out, in addition to time series analysis, from which, the seasonal component of the series was extracted, and the strength of the seasonality component was measured. The method can be accessed in [Forecasting: Principles and Practice, by Rob J Hyndman]](https://otexts.com/fpp2/seasonal-strength.html). 
+For seasonality patterns detection, visual descriptive analysis has been carried out, in addition to time series analysis, from which, the seasonal component of the series was extracted, and the strength of the seasonality component was measured. The method can be accessed in [Forecasting: Principles and Practice](https://otexts.com/fpp2/seasonal-strength.html), by Rob J Hyndman. 
 
 For group differences, descriptive analysis and hypothesis testing have been carried out. For the measurement of the difficulty os selling rooms in the nearby dates of a group's stay, Cohen's d was also computed to measure effect size.
 

@@ -1,5 +1,7 @@
 # Analysis of hotel bookings
 
+Author: Martín Pons
+
 ## Business understanding
 
 Analytics in the hotelier world today is important, and nowadays this business cannot be run with some sensible and smart use of data.

@@ -27,13 +27,13 @@ In total there are 119,390 records and 32 features, with all of these features p
 
 ## Data preparation
 
-For the two first questions, the analysis has been performed only including confirmed bookings, given that some of the data can change when the client checks-in, so canceled bookings can have a different distribution. Also, this is an a-posteriori analysis, that is, only clients that have stayed in the hotel will be taken into account.
+For the two first questions, the analysis has been performed only including confirmed bookings, given that some of the data can change when the client checks-in and canceled bookings can have a different distribution for some variables. Also, this is an a-posteriori analysis, that is, only clients that have stayed in the hotel will be taken into account.
 
 Also, a major transformation is carried out: from booking records we go into daily stay data: the data is aggregated by days and months, and not by check-in date, but by stay date. This requires some complex operations that are performed using helper functions built specifically for this analysis.
 
 Several date variables are extracted from the original data, since some of the analysis deals with aggregation for different time windows.
 
-For prediction of canceled bookings, the analysis is performed at the booking level with the entire data set, and new features are created in the process. The major part, involves grouping qualitative data with too many categories, into ones with a limited number of them.
+For prediction of canceled bookings, the analysis is performed at the booking level with the entire data set, and new features are created in the process. The major part, involves grouping qualitative data with too many categories into ones with a limited number of them.
 
 ## Modeling
 
